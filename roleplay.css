@@ -9,4 +9,4 @@
 .re-gif { background:#111324; padding:2px; }
 .re-gif img { width:100%; display:block; }
 .re-inv { background:#0b1a0b; padding:15px; line-height:1.6; }
-.re-bio { background:#0b0e1a; padding:20px; line-height:1.8; flex-grow:1; }
+.re-bio { background:#0b0e1a; padding:20px; line-height:1.8; flex-grow:1; font-size: 18px; }
