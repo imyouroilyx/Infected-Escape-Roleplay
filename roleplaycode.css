@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Prompt:wght@400;700&display=swap');
+
+.rp-wrap { max-width:950px; margin:20px auto; background:#080808; font-family:'Prompt',sans-serif; color:#bbb; border:1px solid #222; box-shadow:0 25px 60px rgba(0,0,0,0.9); display:flex; flex-wrap:wrap; overflow:hidden; align-items:stretch; }
+.rp-left { width:280px; background:#0d0d0d; border-right:1px solid #222; display:flex; flex-direction:column; flex-shrink:0; }
+.rp-img-wrap { position:relative; line-height:0; }
+.rp-img { width:100%; display:block; border-bottom:1px solid #222; }
+.rp-name-box { position:absolute; bottom:0; width:100%; background:linear-gradient(to top,rgba(13,13,13,1),transparent); padding:20px 0; text-align:center; }
+.rp-name { font-family:'Oswald',sans-serif; font-weight:700; color:#fff; font-size:38px; letter-spacing:2px; text-shadow:0 0 15px rgba(0,255,0,0.5); }
+.rp-status-box { padding:25px; border-bottom:1px solid #1a1a1a; }
+.rp-status-head { display:flex; align-items:center; margin-bottom:15px; }
+.rp-status-dot { width:10px; height:10px; background:#0f0; border-radius:50%; margin-right:10px; box-shadow:0 0 10px #0f0; }
+.rp-status-txt { font-family:'Oswald',sans-serif; font-size:16px; color:#eee; letter-spacing:2px; }
+.rp-info { font-size:15px; line-height:2.2; color:#888; }
+.rp-info b { color:#eee; }
+.rp-inv-box { padding:25px; flex-grow:1; }
+.rp-inv-h3 { font-family:'Oswald',sans-serif; font-size:14px; color:#444; letter-spacing:3px; margin:0 0 15px 0; text-transform:uppercase; }
+.rp-inv-list { margin:0; padding:0; list-style:none; font-size:15px; line-height:2.1; color:#aaa; }
+.rp-gif-box { padding:1px; background:#000; border-top:1px solid #1a1a1a; }
+.rp-gif { width:100%; display:block; opacity:0.8; }
+.rp-right { flex:1; min-width:400px; background:linear-gradient(135deg,#0a0a0a,#050505); display:flex; flex-direction:column; }
+.rp-content { padding:45px; flex-grow:1; }
+.rp-text-wrap { border-left:2px solid #333; padding-left:35px; }
+.rp-h2 { font-family:'Prompt',sans-serif; font-weight:700; color:#eee; font-size:22px; margin:0 0 30px 0; display:flex; align-items:center; }
+.rp-line { margin-left:20px; height:1px; flex-grow:1; background:linear-gradient(to right,#333,transparent); }
+.rp-desc { line-height:2.2; font-size:18px; color:#bbb; text-align:justify; }
+.rp-desc b { color:#eee; }
+.rp-foot { background:#000; padding:25px; border-top:1px solid #1a1a1a; display:flex; justify-content:space-between; align-items:center; }
+.rp-logo { width:130px; opacity:0.6; }
+.rp-unit { font-family:'Oswald',sans-serif; font-size:11px; color:#333; letter-spacing:1px; text-transform:uppercase; }
